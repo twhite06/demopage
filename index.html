@@ -1,21 +1,160 @@
+<!-- Structure of an html5 file
+		<header>
+		<nav>
+		<section>
+		<aside>
+		<article>
+		<footer>
+		 -->
+
+<!doctype html>
 <html>
+
 <head>
-  <title>Assignment #1</title>
+  <title> HTML5 Practice </title>
 </head>
+
+<head>
+<meta charset="utf-8">
+<title>HTML 5 Doc</title>
+	<style>
+		body,html {
+			padding: 0; margin: 0
+		}
+		header h1 {
+			text-align:center;
+			font-family: arial, helvetica;
+			font-size: 30px;
+		}
+		header {
+			margin: 25px 25px ;
+			background-color: #878787;
+			color: #fff;
+	    	padding: 20px 40px;
+	    	width: 100%;
+	    	box-sizing: border-box;
+	    }
+		
+		nav {
+			margin-left: 25px;
+			margin-right: 25px;
+			background-color: #AD3DCB;
+			padding: 15px 15px;
+		}
+		nav a {
+			color: #fff; 
+			font-size: 19px; 
+			text-decoration: none;
+		}
+		
+		nav ul {
+			list-style-type:none; 
+		}
+		nav ul li {
+			display: inline-block;
+			padding-right: 150px;
+			padding-left: 100px;
+		}
+		section {
+			float: left;
+			padding: 25px 25px;
+			text-align:left;
+			font-family: arial, helvetica;
+			margin-top: 25px;
+			margin-left:25px;
+			margin-right: 25px;
+			margin-bottom: 50px;
+			background-color: #F9040B;
+			width:70%;
+		}
+		section h1{
+			text-align: center;
+			font-size: 30px;
+		}
+		section h2{
+			font-size: 22px;
+			text-align: left;
+		}
+		section p{
+			font-size: 12px;
+			text-align: left;
+		}
+		aside {
+			display: inline-block;
+			float: right;
+			width:20%;
+			background-color: purple;
+		}
+		aside h1{
+			text-align: center;
+			font-size: 30px;
+		}
+		aside p{
+			font-size: 22px;
+			text-align: left;
+		}
+		footer {
+			font-size: 22px;
+			text-align: center;	
+			display: block;		
+		}
+	
+	</style>
+</head>
+
 <body>
-  <h1>Greetings</h1>
-  I'd like to tell you more about me! <br />
-  My Name: Tim Gray (some people call me Tim White) <br />
-  My Email: timothy.white@tufts.edu <br />
-  My Phone: 901-493-0282 <br />
-  My Major: Computer Science <br />
-  My IP Address: 130.64.129.229 <br />
-  My Hometown: Memphis, TN <br />
-  <hr size='2' />
-  <h3> Something noone would expect from me </h3>
-  <p> I'm going to make a large-scale impact on the world and </p>
-  <hr size='4' />
-  <p> BLOW EVERYONE'S MIND! </p> 
+	<header>
+	<h1>Header</h1>
+	</header>
+	<nav>
+	<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">Our Team</a></li>
+	<li><a href="#">Projects</a></li>
+	<li><a href="#">Contact</a></li>
+	<li>
+
+	<center><form>
+	<input type='text' name='search' >
+	<input type = 'submit' value = "Search">
+	</form></center>
+
+	</li>
+	</ul>
+	</nav>
+
+	<section>
+		<h1> Tuffs College's Trusted Provider For SMM Services </h1>
+		<h2> About Us </h2>
+		<p> Jumbo Rocket SB has been a campus favorite online marketing firm for the past few decades.<br> 
+     We help students, school organizations, faculty members, and all Tuffs sister schools/ associates 
+     dominate the online growth arena! From everything to web design, content strategies,paid advertising, 
+     and more, we are your #1 choice for growth</p>
+		<br><br>
+		<img src="smm.jpg" alt="Social Bubble" width="150" height="150">
+		<br><br>
+		<h2> Listed Below Are Our Services </h2>
+		<p> <em> Instagrape Marketing </em>
+		<br><br>
+		<em> Faceshook Advertising </em>
+		<br><br>
+		<em> Clapchat Content Marketing </em>
+		</p>
+		<br><br>
+	</section>
+
+	<aside>
+		<h1> Where to Start </h1>
+		<p> Every good business strategy starts with a good plan. Social media marketing for small business is
+    no different. Since it’s so easy to use and you can get started with organic posts for free, it might be 
+    tempting to dive in and just start posting.<br>But without a plan, you have no way of knowing what you’re 
+    trying to achieve with your social media posts, and no way to measure whether you get there. Taking the time 
+    to create a social media plan right upfront will ensure that all your social efforts support specific 
+    business goals.</p>
+	</aside>
+
+	<footer>
+		Follow My IG ! www.instagram.com/timgray__
+	</footer>
 </body>
 </html>
-
